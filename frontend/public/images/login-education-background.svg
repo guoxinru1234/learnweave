@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="0" x2="1840" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8FEFF"/>
+      <stop offset=".48" stop-color="#DDF9FB"/>
+      <stop offset="1" stop-color="#C9FAE8"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(220 840) rotate(-32) scale(580 420)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#54DDEA" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#54DDEA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(1670 880) rotate(-142) scale(620 410)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4DE9C5" stop-opacity=".48"/>
+      <stop offset="1" stop-color="#4DE9C5" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#159AAC" flood-opacity=".16"/>
+    </filter>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#glowA)"/>
+  <rect width="1920" height="1080" fill="url(#glowB)"/>
+
+  <g opacity=".34" stroke="#59C9D3" stroke-width="2">
+    <path d="M-70 540C170 390 250 510 430 393S705 230 914 310s289 68 455-48 347-94 628 25"/>
+    <path d="M-80 760c238-189 399-84 542-213s335-99 474 1 310 113 453 2 285-170 611-77"/>
+    <path d="M80 1030c196-176 307-144 451-245s280-63 422 18 257 76 390-14 296-153 589-73"/>
+  </g>
+  <g fill="#F8FFFF" stroke="#79D7DC" stroke-width="2">
+    <circle cx="96" cy="522" r="7"/><circle cx="432" cy="392" r="6"/><circle cx="914" cy="310" r="7"/>
+    <circle cx="1368" cy="263" r="6"/><circle cx="1768" cy="258" r="8"/><circle cx="463" cy="547" r="7"/>
+    <circle cx="936" cy="548" r="6"/><circle cx="1389" cy="550" r="8"/><circle cx="531" cy="785" r="6"/>
+    <circle cx="953" cy="803" r="7"/><circle cx="1562" cy="732" r="6"/>
+  </g>
+
+  <g opacity=".28" stroke="#52C8D2">
+    <circle cx="1770" cy="62" r="210"/><circle cx="1770" cy="62" r="155"/><circle cx="1770" cy="62" r="98"/>
+    <circle cx="80" cy="1038" r="190"/><circle cx="80" cy="1038" r="132"/>
+  </g>
+
+  <g transform="translate(-60 210) rotate(-8 205 250)" filter="url(#shadow)">
+    <path d="M68 82c82 4 151 36 207 101v360c-65-58-134-87-207-85V82Z" fill="#F9FFFF" fill-opacity=".74" stroke="#A4E0E4" stroke-width="4"/>
+    <path d="M275 183c62-78 137-116 225-112v376c-88-2-163 30-225 96V183Z" fill="#F9FFFF" fill-opacity=".68" stroke="#A4E0E4" stroke-width="4"/>
+    <path d="M102 126c62 8 111 31 148 69M102 168c57 8 106 29 148 62M102 210c58 9 106 29 148 61" stroke="#B7E8EA" stroke-width="3"/>
+    <path d="M305 195c45-48 98-75 159-82M305 237c47-44 100-69 159-76M305 279c48-41 101-64 159-71" stroke="#B7E8EA" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(1648 420) rotate(13 90 125)" filter="url(#shadow)">
+    <rect x="15" y="9" width="150" height="230" rx="22" fill="#EFFFFF" fill-opacity=".66" stroke="#8BDDE1" stroke-width="4"/>
+    <rect x="37" y="36" width="106" height="160" rx="12" stroke="#A0E5E5" stroke-width="3"/>
+    <path d="M63 82h55M63 108h55M63 134h40" stroke="#63CDD4" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+    <circle cx="90" cy="174" r="9" stroke="#46C9C6" stroke-width="3"/>
+  </g>
+
+  <g transform="translate(1370 704)" filter="url(#shadow)">
+    <path d="M40 144c100-14 196 10 287 72V86c-92-61-188-84-287-69v127Z" fill="#F8FFFF" fill-opacity=".7" stroke="#9DDFDF" stroke-width="4"/>
+    <path d="M327 216c93-66 191-91 294-75V14c-105-17-203 7-294 72v130Z" fill="#F8FFFF" fill-opacity=".72" stroke="#9DDFDF" stroke-width="4"/>
+    <path d="M68 58c79-5 155 15 226 60M68 91c77-3 151 17 226 59M68 124c77 0 151 19 226 56" stroke="#B5E8E7" stroke-width="3"/>
+    <path d="M359 117c72-45 149-64 231-57M359 151c73-43 150-60 231-53M359 184c73-40 150-56 231-48" stroke="#B5E8E7" stroke-width="3"/>
+  </g>
+
+  <g opacity=".46" filter="url(#blur)" fill="#FFFFFF">
+    <circle cx="788" cy="155" r="38"/><circle cx="1154" cy="914" r="48"/><circle cx="1470" cy="220" r="32"/>
+  </g>
+</svg>

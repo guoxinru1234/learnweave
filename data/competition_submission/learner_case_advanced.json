@@ -1,0 +1,7 @@
+{
+  "case_id": "advanced-learner-01",
+  "learner_profile": {"foundation": "advanced", "theoretical_basis": 88, "coding_ability": 91, "practical_ops": 84, "troubleshooting": 79, "data_thinking": 86, "self_learning": 90, "weak_points": ["groupby performance", "visualization design"]},
+  "agent_trace": [{"agent": "diagnosis", "decision": "Increase challenge with multi-table aggregation and visual insight tasks."}, {"agent": "retrieval", "hits": ["pda-01", "pda-02", "pda-03"]}, {"agent": "generation", "resources": ["handout", "analysis_case", "mindmap", "quiz", "lab"]}, {"agent": "review", "status": "approved", "evidence_coverage": 1.0}],
+  "generated_resources": {"difficulty": "advanced", "handout_title": "Pandas aggregation and visual analytics", "code_focus": "groupby/merge/seaborn", "quiz_count": 5, "next_step": "Complete an end-to-end sales analysis project"},
+  "citations": ["pda-01", "pda-02", "pda-03"]
+}

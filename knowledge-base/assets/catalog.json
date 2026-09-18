@@ -1,0 +1,1715 @@
+{
+  "schema_version": 1,
+  "generated_by": "scripts/ingest_course_assets.py",
+  "course": "大数据计算集群技术",
+  "asset_root": "实验手册",
+  "counts": {
+    "assets": 24,
+    "lectures": 75,
+    "chunks": 538,
+    "by_category": {
+      "answer": 1,
+      "case": 5,
+      "dataset": 2,
+      "exercise": 4,
+      "faq": 1,
+      "lab": 9,
+      "lecture": 75,
+      "manual": 2
+    }
+  },
+  "assets": [
+    {
+      "id": "lecture-00",
+      "title": "Python环境搭建与Jupyter入门",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/00/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        0
+      ],
+      "text_chars": 5037,
+      "chunk_count": 5
+    },
+    {
+      "id": "lecture-01",
+      "title": "Python数据类型与运算符",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/01/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        1
+      ],
+      "text_chars": 5090,
+      "chunk_count": 5
+    },
+    {
+      "id": "lecture-02",
+      "title": "流程控制与函数",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/02/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        2
+      ],
+      "text_chars": 4712,
+      "chunk_count": 5
+    },
+    {
+      "id": "lecture-03",
+      "title": "列表推导式与生成器",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/03/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        3
+      ],
+      "text_chars": 4422,
+      "chunk_count": 5
+    },
+    {
+      "id": "lecture-04",
+      "title": "文件读写与异常处理",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/04/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        4
+      ],
+      "text_chars": 5438,
+      "chunk_count": 5
+    },
+    {
+      "id": "lecture-05",
+      "title": "常用标准库(os/datetime/collections)",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/05/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        5
+      ],
+      "text_chars": 6415,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-06",
+      "title": "数组创建与索引切片",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/06/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        6
+      ],
+      "text_chars": 5342,
+      "chunk_count": 5
+    },
+    {
+      "id": "lecture-07",
+      "title": "广播机制与向量化",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/07/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        7
+      ],
+      "text_chars": 5518,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-08",
+      "title": "线性代数运算",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/08/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        8
+      ],
+      "text_chars": 5473,
+      "chunk_count": 5
+    },
+    {
+      "id": "lecture-09",
+      "title": "随机数生成与统计函数",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/09/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        9
+      ],
+      "text_chars": 5583,
+      "chunk_count": 5
+    },
+    {
+      "id": "lecture-10",
+      "title": "性能优化与内存布局",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/10/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        10
+      ],
+      "text_chars": 6012,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-11",
+      "title": "Series与DataFrame核心",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/11/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        11
+      ],
+      "text_chars": 5807,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-12",
+      "title": "CSV/Excel/JSON数据读取",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/12/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        12
+      ],
+      "text_chars": 5927,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-13",
+      "title": "数据选择loc/iloc/query",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/13/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        13
+      ],
+      "text_chars": 6699,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-14",
+      "title": "缺失值检测与处理",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/14/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        14
+      ],
+      "text_chars": 6337,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-15",
+      "title": "数据类型转换与优化",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/15/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        15
+      ],
+      "text_chars": 7786,
+      "chunk_count": 8
+    },
+    {
+      "id": "lecture-16",
+      "title": "groupby分组聚合",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/16/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        16
+      ],
+      "text_chars": 5265,
+      "chunk_count": 5
+    },
+    {
+      "id": "lecture-17",
+      "title": "数据透视表pivot_table",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/17/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        17
+      ],
+      "text_chars": 5723,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-18",
+      "title": "merge/join/concat合并",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/18/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        18
+      ],
+      "text_chars": 5427,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-19",
+      "title": "时间序列处理",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/19/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        19
+      ],
+      "text_chars": 5458,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-20",
+      "title": "链式操作与pipe最佳实践",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/20/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        20
+      ],
+      "text_chars": 6355,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-21",
+      "title": "重复值检测与去重策略",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/21/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        21
+      ],
+      "text_chars": 6882,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-22",
+      "title": "异常值识别(3σ/IQR)",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/22/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        22
+      ],
+      "text_chars": 7244,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-23",
+      "title": "文本数据清洗与正则",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/23/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        23
+      ],
+      "text_chars": 5502,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-24",
+      "title": "数据标准化与归一化",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/24/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        24
+      ],
+      "text_chars": 8447,
+      "chunk_count": 8
+    },
+    {
+      "id": "lecture-25",
+      "title": "数据质量报告自动生成",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/25/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        25
+      ],
+      "text_chars": 8939,
+      "chunk_count": 9
+    },
+    {
+      "id": "lecture-26",
+      "title": "Matplotlib基础图表",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/26/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        26
+      ],
+      "text_chars": 5705,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-27",
+      "title": "Seaborn统计图表",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/27/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        27
+      ],
+      "text_chars": 5126,
+      "chunk_count": 5
+    },
+    {
+      "id": "lecture-28",
+      "title": "Pyecharts交互图表",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/28/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        28
+      ],
+      "text_chars": 6117,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-29",
+      "title": "多子图与Dashboard布局",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/29/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        29
+      ],
+      "text_chars": 7961,
+      "chunk_count": 8
+    },
+    {
+      "id": "lecture-30",
+      "title": "图表配色与商业报告排版",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/30/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        30
+      ],
+      "text_chars": 8167,
+      "chunk_count": 9
+    },
+    {
+      "id": "lecture-31",
+      "title": "ETL概念与架构模式",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/31/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        31
+      ],
+      "text_chars": 7852,
+      "chunk_count": 8
+    },
+    {
+      "id": "lecture-32",
+      "title": "数据抽取策略(全量/增量)",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/32/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        32
+      ],
+      "text_chars": 8171,
+      "chunk_count": 9
+    },
+    {
+      "id": "lecture-33",
+      "title": "数据转换规范与校验",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/33/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame",
+        "流处理"
+      ],
+      "lecture_ids": [
+        33
+      ],
+      "text_chars": 7441,
+      "chunk_count": 8
+    },
+    {
+      "id": "lecture-34",
+      "title": "数据加载(SQL/NoSQL/Parquet)",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/34/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        34
+      ],
+      "text_chars": 8240,
+      "chunk_count": 8
+    },
+    {
+      "id": "lecture-35",
+      "title": "Apache Airflow调度实战",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/35/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        35
+      ],
+      "text_chars": 7274,
+      "chunk_count": 8
+    },
+    {
+      "id": "lecture-36",
+      "title": "SQL查询语句精讲",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/36/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        36
+      ],
+      "text_chars": 5594,
+      "chunk_count": 5
+    },
+    {
+      "id": "lecture-37",
+      "title": "窗口函数ROW_NUMBER/RANK",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/37/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        37
+      ],
+      "text_chars": 6071,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-38",
+      "title": "索引优化与执行计划",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/38/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        38
+      ],
+      "text_chars": 8355,
+      "chunk_count": 9
+    },
+    {
+      "id": "lecture-39",
+      "title": "Python操作MySQL/SQLite",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/39/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        39
+      ],
+      "text_chars": 6634,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-40",
+      "title": "ORM框架SQLAlchemy入门",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/40/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "数据读写"
+      ],
+      "lecture_ids": [
+        40
+      ],
+      "text_chars": 7297,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-41",
+      "title": "描述统计(均值/方差/分位数)",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/41/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        41
+      ],
+      "text_chars": 6362,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-42",
+      "title": "概率分布(正态/二项/泊松)",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/42/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        42
+      ],
+      "text_chars": 6099,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-43",
+      "title": "假设检验t检验/卡方",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/43/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        43
+      ],
+      "text_chars": 5897,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-44",
+      "title": "相关性与线性回归",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/44/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        44
+      ],
+      "text_chars": 5783,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-45",
+      "title": "AB测试设计与评估",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/45/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        45
+      ],
+      "text_chars": 7138,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-46",
+      "title": "业务需求理解与拆解",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/46/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        46
+      ],
+      "text_chars": 8792,
+      "chunk_count": 9
+    },
+    {
+      "id": "lecture-47",
+      "title": "多源数据采集与整合",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/47/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        47
+      ],
+      "text_chars": 7045,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-48",
+      "title": "RFM用户分层模型",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/48/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        48
+      ],
+      "text_chars": 6398,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-49",
+      "title": "销售额趋势预测",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/49/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        49
+      ],
+      "text_chars": 8121,
+      "chunk_count": 8
+    },
+    {
+      "id": "lecture-50",
+      "title": "分析报告撰写与汇报",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/50/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        50
+      ],
+      "text_chars": 7191,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-51",
+      "title": "HTTP协议与Requests库",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/51/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        51
+      ],
+      "text_chars": 6690,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-52",
+      "title": "XPath/CSS选择器解析",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/52/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        52
+      ],
+      "text_chars": 6797,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-53",
+      "title": "Scrapy框架爬虫",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/53/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        53
+      ],
+      "text_chars": 7434,
+      "chunk_count": 8
+    },
+    {
+      "id": "lecture-54",
+      "title": "反爬策略应对(UserAgent/IP池)",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/54/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        54
+      ],
+      "text_chars": 6840,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-55",
+      "title": "数据清洗存储与可视化",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/55/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        55
+      ],
+      "text_chars": 6469,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-56",
+      "title": "向量化替代循环操作",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/56/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame",
+        "环境部署"
+      ],
+      "lecture_ids": [
+        56
+      ],
+      "text_chars": 6948,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-57",
+      "title": "内存优化与数据类型选择",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/57/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame",
+        "环境部署"
+      ],
+      "lecture_ids": [
+        57
+      ],
+      "text_chars": 6493,
+      "chunk_count": 7
+    },
+    {
+      "id": "lecture-58",
+      "title": "多进程并行处理",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/58/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "环境部署"
+      ],
+      "lecture_ids": [
+        58
+      ],
+      "text_chars": 8038,
+      "chunk_count": 8
+    },
+    {
+      "id": "lecture-59",
+      "title": "Dask分布式计算入门",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/59/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame",
+        "环境部署"
+      ],
+      "lecture_ids": [
+        59
+      ],
+      "text_chars": 5478,
+      "chunk_count": 6
+    },
+    {
+      "id": "lecture-60",
+      "title": "Flask/FastAPI部署数据分析API",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/60/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame",
+        "环境部署"
+      ],
+      "lecture_ids": [
+        60
+      ],
+      "text_chars": 8172,
+      "chunk_count": 8
+    },
+    {
+      "id": "lecture-61",
+      "title": "Python变量与运算符",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/61/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        61
+      ],
+      "text_chars": 1678,
+      "chunk_count": 2
+    },
+    {
+      "id": "lecture-62",
+      "title": "流程控制：条件与循环",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/62/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        62
+      ],
+      "text_chars": 1811,
+      "chunk_count": 2
+    },
+    {
+      "id": "lecture-63",
+      "title": "函数定义与参数传递",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/63/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        63
+      ],
+      "text_chars": 1895,
+      "chunk_count": 2
+    },
+    {
+      "id": "lecture-64",
+      "title": "模块化编程与包管理",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/64/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        64
+      ],
+      "text_chars": 1646,
+      "chunk_count": 2
+    },
+    {
+      "id": "lecture-65",
+      "title": "NumPy数组索引与切片详解",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/65/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        65
+      ],
+      "text_chars": 1592,
+      "chunk_count": 2
+    },
+    {
+      "id": "lecture-66",
+      "title": "NumPy广播机制",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/66/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        66
+      ],
+      "text_chars": 1753,
+      "chunk_count": 2
+    },
+    {
+      "id": "lecture-67",
+      "title": "NumPy向量化运算",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/67/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        67
+      ],
+      "text_chars": 1957,
+      "chunk_count": 2
+    },
+    {
+      "id": "lecture-68",
+      "title": "NumPy随机数生成",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/68/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        68
+      ],
+      "text_chars": 1904,
+      "chunk_count": 2
+    },
+    {
+      "id": "lecture-69",
+      "title": "Pandas数据读取：CSV与Excel",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/69/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        69
+      ],
+      "text_chars": 1750,
+      "chunk_count": 2
+    },
+    {
+      "id": "lecture-70",
+      "title": "Pandas数据筛选与条件过滤",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/70/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        70
+      ],
+      "text_chars": 1997,
+      "chunk_count": 2
+    },
+    {
+      "id": "lecture-71",
+      "title": "Pandas缺失值处理",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/71/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        71
+      ],
+      "text_chars": 1868,
+      "chunk_count": 2
+    },
+    {
+      "id": "lecture-72",
+      "title": "Pandas异常值检测与处理",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/72/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        72
+      ],
+      "text_chars": 1913,
+      "chunk_count": 2
+    },
+    {
+      "id": "lecture-73",
+      "title": "Pandas文本数据清洗",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/73/lecture.md",
+      "suffix": ".md",
+      "topics": [
+        "DataFrame"
+      ],
+      "lecture_ids": [
+        73
+      ],
+      "text_chars": 2104,
+      "chunk_count": 2
+    },
+    {
+      "id": "lecture-74",
+      "title": "Scikit-learn数据划分训练测试集",
+      "category": "lecture",
+      "source_path": "learnmate/knowledge-base/74/lecture.md",
+      "suffix": ".md",
+      "topics": [],
+      "lecture_ids": [
+        74
+      ],
+      "text_chars": 2192,
+      "chunk_count": 2
+    },
+    {
+      "id": "asset-001-b9180de9",
+      "title": "DataFrame创建和使用",
+      "category": "lab",
+      "source_path": "实验手册/DataFrame创建和使用.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "DataFrame",
+        "RDD",
+        "Local"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "text_chars": 4282,
+      "chunk_count": 4
+    },
+    {
+      "id": "asset-002-06c820c6",
+      "title": "fourth-data1",
+      "category": "dataset",
+      "source_path": "实验手册/fourth-data1.txt",
+      "suffix": ".txt",
+      "topics": [],
+      "lecture_ids": [],
+      "text_chars": 22440,
+      "chunk_count": 22
+    },
+    {
+      "id": "asset-003-8bf87ef0",
+      "title": "RDD编程实战",
+      "category": "lab",
+      "source_path": "实验手册/RDD编程实战.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "编程实践",
+        "RDD",
+        "YARN",
+        "Local",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "text_chars": 2647,
+      "chunk_count": 4
+    },
+    {
+      "id": "asset-004-3fd751d8",
+      "title": "Scala函数式编程-习题",
+      "category": "exercise",
+      "source_path": "实验手册/Scala函数式编程-习题.pdf",
+      "suffix": ".pdf",
+      "topics": [
+        "Scala",
+        "函数式编程",
+        "习题"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_chars": 903,
+      "chunk_count": 1
+    },
+    {
+      "id": "asset-005-798efcbb",
+      "title": "Scala函数式编程",
+      "category": "manual",
+      "source_path": "实验手册/Scala函数式编程.pdf",
+      "suffix": ".pdf",
+      "topics": [
+        "Scala",
+        "函数式编程"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_chars": 5000,
+      "chunk_count": 5
+    },
+    {
+      "id": "asset-006-ce0a1500",
+      "title": "Scala开发环境部署",
+      "category": "lab",
+      "source_path": "实验手册/Scala开发环境部署.pdf",
+      "suffix": ".pdf",
+      "topics": [
+        "Scala",
+        "环境部署"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "text_chars": 1373,
+      "chunk_count": 2
+    },
+    {
+      "id": "asset-007-838763cc",
+      "title": "Scala编程实战-答案",
+      "category": "answer",
+      "source_path": "实验手册/Scala编程实战-答案.pdf",
+      "suffix": ".pdf",
+      "topics": [
+        "Scala",
+        "编程实践",
+        "答案"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_chars": 2460,
+      "chunk_count": 3
+    },
+    {
+      "id": "asset-008-6d306d7f",
+      "title": "Scala语言基础-习题",
+      "category": "exercise",
+      "source_path": "实验手册/Scala语言基础-习题.pdf",
+      "suffix": ".pdf",
+      "topics": [
+        "Scala",
+        "习题"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_chars": 2231,
+      "chunk_count": 2
+    },
+    {
+      "id": "asset-009-c33ef8a1",
+      "title": "Scala语言基础",
+      "category": "manual",
+      "source_path": "实验手册/Scala语言基础.pdf",
+      "suffix": ".pdf",
+      "topics": [
+        "Scala"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_chars": 6140,
+      "chunk_count": 6
+    },
+    {
+      "id": "asset-010-ca49fac4",
+      "title": "score-sencond-test",
+      "category": "dataset",
+      "source_path": "实验手册/score-sencond-test.txt",
+      "suffix": ".txt",
+      "topics": [],
+      "lecture_ids": [],
+      "text_chars": 337,
+      "chunk_count": 1
+    },
+    {
+      "id": "asset-011-6c1a0efa",
+      "title": "Spark Local和Standalone部署",
+      "category": "lab",
+      "source_path": "实验手册/Spark Local和Standalone部署.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "Spark SQL",
+        "Standalone",
+        "Local",
+        "环境部署"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        17,
+        18,
+        19,
+        20
+      ],
+      "text_chars": 3555,
+      "chunk_count": 4
+    },
+    {
+      "id": "asset-012-8a83f8fe",
+      "title": "Spark on YARN部署模式-",
+      "category": "lab",
+      "source_path": "实验手册/Spark on YARN部署模式-.docx",
+      "suffix": ".docx",
+      "topics": [
+        "YARN",
+        "Local",
+        "环境部署"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "text_chars": 5221,
+      "chunk_count": 6
+    },
+    {
+      "id": "asset-013-b2515bef",
+      "title": "Spark SQL初级实战",
+      "category": "lab",
+      "source_path": "实验手册/Spark SQL初级实战.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "Spark SQL",
+        "DataFrame",
+        "Local",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        17,
+        18,
+        19,
+        20
+      ],
+      "text_chars": 2159,
+      "chunk_count": 2
+    },
+    {
+      "id": "asset-014-12277dc6",
+      "title": "Spark SQL读写数据",
+      "category": "lab",
+      "source_path": "实验手册/Spark SQL读写数据.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "Spark SQL",
+        "DataFrame",
+        "RDD",
+        "Local",
+        "数据读写"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "text_chars": 4662,
+      "chunk_count": 4
+    },
+    {
+      "id": "asset-015-0bb02159",
+      "title": "Spark 开发环境配置",
+      "category": "lab",
+      "source_path": "实验手册/Spark 开发环境配置.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "RDD",
+        "Standalone",
+        "环境部署",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "text_chars": 5591,
+      "chunk_count": 5
+    },
+    {
+      "id": "asset-016-73013e5e",
+      "title": "Spark 流处理初级实战",
+      "category": "lab",
+      "source_path": "实验手册/Spark 流处理初级实战.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "RDD",
+        "Local",
+        "流处理",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "text_chars": 6254,
+      "chunk_count": 6
+    },
+    {
+      "id": "asset-017-e63b67b1",
+      "title": "RDD编程实战",
+      "category": "case",
+      "source_path": "实验手册/案例/RDD编程实战.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "编程实践",
+        "RDD",
+        "YARN",
+        "Local",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "text_chars": 2647,
+      "chunk_count": 4
+    },
+    {
+      "id": "asset-018-ef727e75",
+      "title": "Scala编程",
+      "category": "case",
+      "source_path": "实验手册/案例/Scala编程.pdf",
+      "suffix": ".pdf",
+      "topics": [
+        "Scala"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_chars": 2460,
+      "chunk_count": 3
+    },
+    {
+      "id": "asset-019-92957ff3",
+      "title": "Spark on YARN部署模式-",
+      "category": "case",
+      "source_path": "实验手册/案例/Spark on YARN部署模式-.docx",
+      "suffix": ".docx",
+      "topics": [
+        "YARN",
+        "Local",
+        "环境部署"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "text_chars": 5221,
+      "chunk_count": 6
+    },
+    {
+      "id": "asset-020-2e0da8c4",
+      "title": "Spark SQL初级实战",
+      "category": "case",
+      "source_path": "实验手册/案例/Spark SQL初级实战.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "Spark SQL",
+        "DataFrame",
+        "Local",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        17,
+        18,
+        19,
+        20
+      ],
+      "text_chars": 2159,
+      "chunk_count": 2
+    },
+    {
+      "id": "asset-021-194b5a9f",
+      "title": "Spark 流处理初级实战",
+      "category": "case",
+      "source_path": "实验手册/案例/Spark 流处理初级实战.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "RDD",
+        "Local",
+        "流处理",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "text_chars": 6254,
+      "chunk_count": 6
+    },
+    {
+      "id": "asset-022-ca8c35be",
+      "title": "第一次作业",
+      "category": "exercise",
+      "source_path": "实验手册/第一次作业.pdf",
+      "suffix": ".pdf",
+      "topics": [
+        "Scala",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_chars": 120,
+      "chunk_count": 1
+    },
+    {
+      "id": "asset-023-26d7c6ea",
+      "title": "第二次作业-Scala编程实战",
+      "category": "exercise",
+      "source_path": "实验手册/第二次作业-Scala编程实战.pdf",
+      "suffix": ".pdf",
+      "topics": [
+        "Scala",
+        "编程实践",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_chars": 792,
+      "chunk_count": 1
+    },
+    {
+      "id": "asset-025-7c0ecda2",
+      "title": "Scala插件问题",
+      "category": "faq",
+      "source_path": "实验手册/问题/Scala插件问题.pdf",
+      "suffix": ".pdf",
+      "topics": [
+        "Scala"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_chars": 400,
+      "chunk_count": 1
+    }
+  ]
+}

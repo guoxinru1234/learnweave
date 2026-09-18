@@ -1,0 +1,9 @@
+{
+  "domain": "Python Data Analysis",
+  "course": "Python Data Analysis",
+  "documents": [
+    {"id": "pda-01", "title": "Pandas DataFrame basics", "content": "DataFrame is a two-dimensional labeled data structure used for tabular analysis."},
+    {"id": "pda-02", "title": "Missing value cleaning", "content": "Use isna to identify missing values, fillna to impute them, and dropna when removal is appropriate."},
+    {"id": "pda-03", "title": "Group analysis and visualization", "content": "groupby supports aggregation by category; matplotlib and seaborn visualize trends and distributions."}
+  ]
+}

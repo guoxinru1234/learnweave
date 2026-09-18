@@ -1,0 +1,640 @@
+{
+  "course": "Python数据分析实战",
+  "total_lectures": 75,
+  "modules": [
+    [
+      "Python基础速成",
+      [
+        "Python环境搭建与Jupyter入门",
+        "Python数据类型与运算符",
+        "流程控制与函数",
+        "列表推导式与生成器",
+        "文件读写与异常处理",
+        "常用标准库(os/datetime/collections)"
+      ]
+    ],
+    [
+      "NumPy数值计算",
+      [
+        "数组创建与索引切片",
+        "广播机制与向量化",
+        "线性代数运算",
+        "随机数生成与统计函数",
+        "性能优化与内存布局"
+      ]
+    ],
+    [
+      "Pandas数据处理(上)",
+      [
+        "Series与DataFrame核心",
+        "CSV/Excel/JSON数据读取",
+        "数据选择loc/iloc/query",
+        "缺失值检测与处理",
+        "数据类型转换与优化"
+      ]
+    ],
+    [
+      "Pandas数据处理(下)",
+      [
+        "groupby分组聚合",
+        "数据透视表pivot_table",
+        "merge/join/concat合并",
+        "时间序列处理",
+        "链式操作与pipe最佳实践"
+      ]
+    ],
+    [
+      "数据清洗实战",
+      [
+        "重复值检测与去重策略",
+        "异常值识别(3σ/IQR)",
+        "文本数据清洗与正则",
+        "数据标准化与归一化",
+        "数据质量报告自动生成"
+      ]
+    ],
+    [
+      "数据可视化",
+      [
+        "Matplotlib基础图表",
+        "Seaborn统计图表",
+        "Pyecharts交互图表",
+        "多子图与Dashboard布局",
+        "图表配色与商业报告排版"
+      ]
+    ],
+    [
+      "ETL数据管道",
+      [
+        "ETL概念与架构模式",
+        "数据抽取策略(全量/增量)",
+        "数据转换规范与校验",
+        "数据加载(SQL/NoSQL/Parquet)",
+        "Apache Airflow调度实战"
+      ]
+    ],
+    [
+      "SQL与数据库",
+      [
+        "SQL查询语句精讲",
+        "窗口函数ROW_NUMBER/RANK",
+        "索引优化与执行计划",
+        "Python操作MySQL/SQLite",
+        "ORM框架SQLAlchemy入门"
+      ]
+    ],
+    [
+      "统计分析基础",
+      [
+        "描述统计(均值/方差/分位数)",
+        "概率分布(正态/二项/泊松)",
+        "假设检验t检验/卡方",
+        "相关性与线性回归",
+        "AB测试设计与评估"
+      ]
+    ],
+    [
+      "实战：销售数据分析",
+      [
+        "业务需求理解与拆解",
+        "多源数据采集与整合",
+        "RFM用户分层模型",
+        "销售额趋势预测",
+        "分析报告撰写与汇报"
+      ]
+    ],
+    [
+      "实战：网络数据采集",
+      [
+        "HTTP协议与Requests库",
+        "XPath/CSS选择器解析",
+        "Scrapy框架爬虫",
+        "反爬策略应对(UserAgent/IP池)",
+        "数据清洗存储与可视化"
+      ]
+    ],
+    [
+      "性能优化与部署",
+      [
+        "向量化替代循环操作",
+        "内存优化与数据类型选择",
+        "多进程并行处理",
+        "Dask分布式计算入门",
+        "Flask/FastAPI部署数据分析API"
+      ]
+    ]
+  ],
+  "lectures": [
+    {
+      "id": 0,
+      "title": "Python环境搭建与Jupyter入门",
+      "dir": "00",
+      "file": "lecture.md",
+      "module": "Python基础速成"
+    },
+    {
+      "id": 1,
+      "title": "Python数据类型与运算符",
+      "dir": "01",
+      "file": "lecture.md",
+      "module": "Python基础速成"
+    },
+    {
+      "id": 2,
+      "title": "流程控制与函数",
+      "dir": "02",
+      "file": "lecture.md",
+      "module": "Python基础速成"
+    },
+    {
+      "id": 3,
+      "title": "列表推导式与生成器",
+      "dir": "03",
+      "file": "lecture.md",
+      "module": "Python基础速成"
+    },
+    {
+      "id": 4,
+      "title": "文件读写与异常处理",
+      "dir": "04",
+      "file": "lecture.md",
+      "module": "Python基础速成"
+    },
+    {
+      "id": 5,
+      "title": "常用标准库(os/datetime/collections)",
+      "dir": "05",
+      "file": "lecture.md",
+      "module": "Python基础速成"
+    },
+    {
+      "id": 6,
+      "title": "数组创建与索引切片",
+      "dir": "06",
+      "file": "lecture.md",
+      "module": "NumPy数值计算"
+    },
+    {
+      "id": 7,
+      "title": "广播机制与向量化",
+      "dir": "07",
+      "file": "lecture.md",
+      "module": "NumPy数值计算"
+    },
+    {
+      "id": 8,
+      "title": "线性代数运算",
+      "dir": "08",
+      "file": "lecture.md",
+      "module": "NumPy数值计算"
+    },
+    {
+      "id": 9,
+      "title": "随机数生成与统计函数",
+      "dir": "09",
+      "file": "lecture.md",
+      "module": "NumPy数值计算"
+    },
+    {
+      "id": 10,
+      "title": "性能优化与内存布局",
+      "dir": "10",
+      "file": "lecture.md",
+      "module": "NumPy数值计算"
+    },
+    {
+      "id": 11,
+      "title": "Series与DataFrame核心",
+      "dir": "11",
+      "file": "lecture.md",
+      "module": "Pandas数据处理(上)"
+    },
+    {
+      "id": 12,
+      "title": "CSV/Excel/JSON数据读取",
+      "dir": "12",
+      "file": "lecture.md",
+      "module": "Pandas数据处理(上)"
+    },
+    {
+      "id": 13,
+      "title": "数据选择loc/iloc/query",
+      "dir": "13",
+      "file": "lecture.md",
+      "module": "Pandas数据处理(上)"
+    },
+    {
+      "id": 14,
+      "title": "缺失值检测与处理",
+      "dir": "14",
+      "file": "lecture.md",
+      "module": "Pandas数据处理(上)"
+    },
+    {
+      "id": 15,
+      "title": "数据类型转换与优化",
+      "dir": "15",
+      "file": "lecture.md",
+      "module": "Pandas数据处理(上)"
+    },
+    {
+      "id": 16,
+      "title": "groupby分组聚合",
+      "dir": "16",
+      "file": "lecture.md",
+      "module": "Pandas数据处理(下)"
+    },
+    {
+      "id": 17,
+      "title": "数据透视表pivot_table",
+      "dir": "17",
+      "file": "lecture.md",
+      "module": "Pandas数据处理(下)"
+    },
+    {
+      "id": 18,
+      "title": "merge/join/concat合并",
+      "dir": "18",
+      "file": "lecture.md",
+      "module": "Pandas数据处理(下)"
+    },
+    {
+      "id": 19,
+      "title": "时间序列处理",
+      "dir": "19",
+      "file": "lecture.md",
+      "module": "Pandas数据处理(下)"
+    },
+    {
+      "id": 20,
+      "title": "链式操作与pipe最佳实践",
+      "dir": "20",
+      "file": "lecture.md",
+      "module": "Pandas数据处理(下)"
+    },
+    {
+      "id": 21,
+      "title": "重复值检测与去重策略",
+      "dir": "21",
+      "file": "lecture.md",
+      "module": "数据清洗实战"
+    },
+    {
+      "id": 22,
+      "title": "异常值识别(3σ/IQR)",
+      "dir": "22",
+      "file": "lecture.md",
+      "module": "数据清洗实战"
+    },
+    {
+      "id": 23,
+      "title": "文本数据清洗与正则",
+      "dir": "23",
+      "file": "lecture.md",
+      "module": "数据清洗实战"
+    },
+    {
+      "id": 24,
+      "title": "数据标准化与归一化",
+      "dir": "24",
+      "file": "lecture.md",
+      "module": "数据清洗实战"
+    },
+    {
+      "id": 25,
+      "title": "数据质量报告自动生成",
+      "dir": "25",
+      "file": "lecture.md",
+      "module": "数据清洗实战"
+    },
+    {
+      "id": 26,
+      "title": "Matplotlib基础图表",
+      "dir": "26",
+      "file": "lecture.md",
+      "module": "数据可视化"
+    },
+    {
+      "id": 27,
+      "title": "Seaborn统计图表",
+      "dir": "27",
+      "file": "lecture.md",
+      "module": "数据可视化"
+    },
+    {
+      "id": 28,
+      "title": "Pyecharts交互图表",
+      "dir": "28",
+      "file": "lecture.md",
+      "module": "数据可视化"
+    },
+    {
+      "id": 29,
+      "title": "多子图与Dashboard布局",
+      "dir": "29",
+      "file": "lecture.md",
+      "module": "数据可视化"
+    },
+    {
+      "id": 30,
+      "title": "图表配色与商业报告排版",
+      "dir": "30",
+      "file": "lecture.md",
+      "module": "数据可视化"
+    },
+    {
+      "id": 31,
+      "title": "ETL概念与架构模式",
+      "dir": "31",
+      "file": "lecture.md",
+      "module": "ETL数据管道"
+    },
+    {
+      "id": 32,
+      "title": "数据抽取策略(全量/增量)",
+      "dir": "32",
+      "file": "lecture.md",
+      "module": "ETL数据管道"
+    },
+    {
+      "id": 33,
+      "title": "数据转换规范与校验",
+      "dir": "33",
+      "file": "lecture.md",
+      "module": "ETL数据管道"
+    },
+    {
+      "id": 34,
+      "title": "数据加载(SQL/NoSQL/Parquet)",
+      "dir": "34",
+      "file": "lecture.md",
+      "module": "ETL数据管道"
+    },
+    {
+      "id": 35,
+      "title": "Apache Airflow调度实战",
+      "dir": "35",
+      "file": "lecture.md",
+      "module": "ETL数据管道"
+    },
+    {
+      "id": 36,
+      "title": "SQL查询语句精讲",
+      "dir": "36",
+      "file": "lecture.md",
+      "module": "SQL与数据库"
+    },
+    {
+      "id": 37,
+      "title": "窗口函数ROW_NUMBER/RANK",
+      "dir": "37",
+      "file": "lecture.md",
+      "module": "SQL与数据库"
+    },
+    {
+      "id": 38,
+      "title": "索引优化与执行计划",
+      "dir": "38",
+      "file": "lecture.md",
+      "module": "SQL与数据库"
+    },
+    {
+      "id": 39,
+      "title": "Python操作MySQL/SQLite",
+      "dir": "39",
+      "file": "lecture.md",
+      "module": "SQL与数据库"
+    },
+    {
+      "id": 40,
+      "title": "ORM框架SQLAlchemy入门",
+      "dir": "40",
+      "file": "lecture.md",
+      "module": "SQL与数据库"
+    },
+    {
+      "id": 41,
+      "title": "描述统计(均值/方差/分位数)",
+      "dir": "41",
+      "file": "lecture.md",
+      "module": "统计分析基础"
+    },
+    {
+      "id": 42,
+      "title": "概率分布(正态/二项/泊松)",
+      "dir": "42",
+      "file": "lecture.md",
+      "module": "统计分析基础"
+    },
+    {
+      "id": 43,
+      "title": "假设检验t检验/卡方",
+      "dir": "43",
+      "file": "lecture.md",
+      "module": "统计分析基础"
+    },
+    {
+      "id": 44,
+      "title": "相关性与线性回归",
+      "dir": "44",
+      "file": "lecture.md",
+      "module": "统计分析基础"
+    },
+    {
+      "id": 45,
+      "title": "AB测试设计与评估",
+      "dir": "45",
+      "file": "lecture.md",
+      "module": "统计分析基础"
+    },
+    {
+      "id": 46,
+      "title": "业务需求理解与拆解",
+      "dir": "46",
+      "file": "lecture.md",
+      "module": "实战：销售数据分析"
+    },
+    {
+      "id": 47,
+      "title": "多源数据采集与整合",
+      "dir": "47",
+      "file": "lecture.md",
+      "module": "实战：销售数据分析"
+    },
+    {
+      "id": 48,
+      "title": "RFM用户分层模型",
+      "dir": "48",
+      "file": "lecture.md",
+      "module": "实战：销售数据分析"
+    },
+    {
+      "id": 49,
+      "title": "销售额趋势预测",
+      "dir": "49",
+      "file": "lecture.md",
+      "module": "实战：销售数据分析"
+    },
+    {
+      "id": 50,
+      "title": "分析报告撰写与汇报",
+      "dir": "50",
+      "file": "lecture.md",
+      "module": "实战：销售数据分析"
+    },
+    {
+      "id": 51,
+      "title": "HTTP协议与Requests库",
+      "dir": "51",
+      "file": "lecture.md",
+      "module": "实战：网络数据采集"
+    },
+    {
+      "id": 52,
+      "title": "XPath/CSS选择器解析",
+      "dir": "52",
+      "file": "lecture.md",
+      "module": "实战：网络数据采集"
+    },
+    {
+      "id": 53,
+      "title": "Scrapy框架爬虫",
+      "dir": "53",
+      "file": "lecture.md",
+      "module": "实战：网络数据采集"
+    },
+    {
+      "id": 54,
+      "title": "反爬策略应对(UserAgent/IP池)",
+      "dir": "54",
+      "file": "lecture.md",
+      "module": "实战：网络数据采集"
+    },
+    {
+      "id": 55,
+      "title": "数据清洗存储与可视化",
+      "dir": "55",
+      "file": "lecture.md",
+      "module": "实战：网络数据采集"
+    },
+    {
+      "id": 56,
+      "title": "向量化替代循环操作",
+      "dir": "56",
+      "file": "lecture.md",
+      "module": "性能优化与部署"
+    },
+    {
+      "id": 57,
+      "title": "内存优化与数据类型选择",
+      "dir": "57",
+      "file": "lecture.md",
+      "module": "性能优化与部署"
+    },
+    {
+      "id": 58,
+      "title": "多进程并行处理",
+      "dir": "58",
+      "file": "lecture.md",
+      "module": "性能优化与部署"
+    },
+    {
+      "id": 59,
+      "title": "Dask分布式计算入门",
+      "dir": "59",
+      "file": "lecture.md",
+      "module": "性能优化与部署"
+    },
+    {
+      "id": 60,
+      "title": "Flask/FastAPI部署数据分析API",
+      "dir": "60",
+      "file": "lecture.md",
+      "module": "性能优化与部署"
+    },
+    {
+      "id": 61,
+      "title": "Python变量与运算符",
+      "dir": "61",
+      "file": "lecture.md"
+    },
+    {
+      "id": 62,
+      "title": "流程控制：条件与循环",
+      "dir": "62",
+      "file": "lecture.md"
+    },
+    {
+      "id": 63,
+      "title": "函数定义与参数传递",
+      "dir": "63",
+      "file": "lecture.md"
+    },
+    {
+      "id": 64,
+      "title": "模块化编程与包管理",
+      "dir": "64",
+      "file": "lecture.md"
+    },
+    {
+      "id": 65,
+      "title": "NumPy数组索引与切片详解",
+      "dir": "65",
+      "file": "lecture.md"
+    },
+    {
+      "id": 66,
+      "title": "NumPy广播机制",
+      "dir": "66",
+      "file": "lecture.md"
+    },
+    {
+      "id": 67,
+      "title": "NumPy向量化运算",
+      "dir": "67",
+      "file": "lecture.md"
+    },
+    {
+      "id": 68,
+      "title": "NumPy随机数生成",
+      "dir": "68",
+      "file": "lecture.md"
+    },
+    {
+      "id": 69,
+      "title": "Pandas数据读取：CSV与Excel",
+      "dir": "69",
+      "file": "lecture.md"
+    },
+    {
+      "id": 70,
+      "title": "Pandas数据筛选与条件过滤",
+      "dir": "70",
+      "file": "lecture.md"
+    },
+    {
+      "id": 71,
+      "title": "Pandas缺失值处理",
+      "dir": "71",
+      "file": "lecture.md"
+    },
+    {
+      "id": 72,
+      "title": "Pandas异常值检测与处理",
+      "dir": "72",
+      "file": "lecture.md"
+    },
+    {
+      "id": 73,
+      "title": "Pandas文本数据清洗",
+      "dir": "73",
+      "file": "lecture.md"
+    },
+    {
+      "id": 74,
+      "title": "Scikit-learn数据划分训练测试集",
+      "dir": "74",
+      "file": "lecture.md"
+    }
+  ]
+}

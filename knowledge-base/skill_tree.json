@@ -1,0 +1,147 @@
+{
+  "domain": "Python数据分析",
+  "version": "1.0",
+  "canonical_source": "knowledge-base/index.json",
+  "total_lectures": 74,
+  "skill_domains": [
+    {
+      "id": "Python基础",
+      "name": "Python基础",
+      "difficulty_base": 1,
+      "knowledge_ids": [
+        "PY-BASIC-001",
+        "PY-BASIC-002",
+        "PY-BASIC-003",
+        "PY-BASIC-004",
+        "PY-BASIC-005",
+        "PY-BASIC-006"
+      ]
+    },
+    {
+      "id": "NumPy",
+      "name": "NumPy",
+      "difficulty_base": 2,
+      "knowledge_ids": [
+        "NUMPY-ARRAY-001",
+        "NUMPY-BROADCAST-001",
+        "NUMPY-LINALG-001",
+        "NUMPY-RANDOM-001",
+        "NUMPY-PERF-001"
+      ]
+    },
+    {
+      "id": "Pandas",
+      "name": "Pandas",
+      "difficulty_base": 2,
+      "knowledge_ids": [
+        "PANDAS-SERIES-001",
+        "PANDAS-READ-001",
+        "PANDAS-SELECT-001",
+        "PANDAS-MISSING-001",
+        "PANDAS-DTYPE-001",
+        "PANDAS-GROUPBY-001",
+        "PANDAS-PIVOT-001",
+        "PANDAS-MERGE-001",
+        "PANDAS-TIMESERIES-001",
+        "PANDAS-PIPE-001"
+      ]
+    },
+    {
+      "id": "数据清洗",
+      "name": "数据清洗",
+      "difficulty_base": 3,
+      "knowledge_ids": [
+        "CLEAN-DUP-001",
+        "CLEAN-OUTLIER-001",
+        "CLEAN-TEXT-001",
+        "CLEAN-NORM-001",
+        "CLEAN-REPORT-001"
+      ]
+    },
+    {
+      "id": "数据可视化",
+      "name": "数据可视化",
+      "difficulty_base": 3,
+      "knowledge_ids": [
+        "VIZ-MATPLOTLIB-001",
+        "VIZ-SEABORN-001",
+        "VIZ-PYECHARTS-001",
+        "VIZ-DASHBOARD-001",
+        "VIZ-STYLE-001"
+      ]
+    },
+    {
+      "id": "ETL数据管道",
+      "name": "ETL数据管道",
+      "difficulty_base": 3,
+      "knowledge_ids": [
+        "ETL-CONCEPT-001",
+        "ETL-EXTRACT-001",
+        "ETL-TRANSFORM-001",
+        "ETL-LOAD-001",
+        "ETL-AIRFLOW-001"
+      ]
+    },
+    {
+      "id": "SQL与数据库",
+      "name": "SQL与数据库",
+      "difficulty_base": 3,
+      "knowledge_ids": [
+        "SQL-QUERY-001",
+        "SQL-WINDOW-001",
+        "SQL-INDEX-001",
+        "SQL-PYTHON-001",
+        "SQL-ORM-001"
+      ]
+    },
+    {
+      "id": "统计分析",
+      "name": "统计分析",
+      "difficulty_base": 4,
+      "knowledge_ids": [
+        "STAT-DESC-001",
+        "STAT-DIST-001",
+        "STAT-TEST-001",
+        "STAT-REGRESS-001",
+        "STAT-ABTEST-001"
+      ]
+    },
+    {
+      "id": "综合数据分析",
+      "name": "综合数据分析",
+      "difficulty_base": 4,
+      "knowledge_ids": [
+        "BIZ-REQ-001",
+        "BIZ-COLLECT-001",
+        "BIZ-RFM-001",
+        "BIZ-FORECAST-001",
+        "BIZ-REPORT-001",
+        "BIZ-HTTP-001",
+        "BIZ-XPATH-001",
+        "BIZ-SCRAPY-001",
+        "BIZ-ANTI-001",
+        "BIZ-CLEANVIZ-001"
+      ]
+    },
+    {
+      "id": "性能优化与部署",
+      "name": "性能优化与部署",
+      "difficulty_base": 5,
+      "knowledge_ids": [
+        "PERF-VECTORIZE-001",
+        "PERF-MEMORY-001",
+        "PERF-MULTIPROC-001",
+        "PERF-DASK-001",
+        "PERF-DEPLOY-001"
+      ]
+    },
+    {
+      "id": "机器学习(扩展)",
+      "name": "机器学习(扩展)",
+      "difficulty_base": 4,
+      "knowledge_ids": [
+        "ML-SPLIT-001"
+      ]
+    }
+  ]
+}

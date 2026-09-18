@@ -1,0 +1,446 @@
+{
+  "total": 14,
+  "experiments": [
+    {
+      "id": "asset-001-b9180de9",
+      "title": "DataFrame创建和使用",
+      "category": "lab",
+      "source_path": "实验手册/DataFrame创建和使用.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "DataFrame",
+        "RDD",
+        "Local"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "text_chars": 4282,
+      "chunk_count": 4
+    },
+    {
+      "id": "asset-003-8bf87ef0",
+      "title": "RDD编程实战",
+      "category": "lab",
+      "source_path": "实验手册/RDD编程实战.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "编程实践",
+        "RDD",
+        "YARN",
+        "Local",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "text_chars": 2647,
+      "chunk_count": 4
+    },
+    {
+      "id": "asset-006-ce0a1500",
+      "title": "Scala开发环境部署",
+      "category": "lab",
+      "source_path": "实验手册/Scala开发环境部署.pdf",
+      "suffix": ".pdf",
+      "topics": [
+        "Scala",
+        "环境部署"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "text_chars": 1373,
+      "chunk_count": 2
+    },
+    {
+      "id": "asset-011-6c1a0efa",
+      "title": "Spark Local和Standalone部署",
+      "category": "lab",
+      "source_path": "实验手册/Spark Local和Standalone部署.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "Spark SQL",
+        "Standalone",
+        "Local",
+        "环境部署"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        17,
+        18,
+        19,
+        20
+      ],
+      "text_chars": 3555,
+      "chunk_count": 4
+    },
+    {
+      "id": "asset-012-8a83f8fe",
+      "title": "Spark on YARN部署模式-",
+      "category": "lab",
+      "source_path": "实验手册/Spark on YARN部署模式-.docx",
+      "suffix": ".docx",
+      "topics": [
+        "YARN",
+        "Local",
+        "环境部署"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "text_chars": 5221,
+      "chunk_count": 6
+    },
+    {
+      "id": "asset-013-b2515bef",
+      "title": "Spark SQL初级实战",
+      "category": "lab",
+      "source_path": "实验手册/Spark SQL初级实战.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "Spark SQL",
+        "DataFrame",
+        "Local",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        17,
+        18,
+        19,
+        20
+      ],
+      "text_chars": 2159,
+      "chunk_count": 2
+    },
+    {
+      "id": "asset-014-12277dc6",
+      "title": "Spark SQL读写数据",
+      "category": "lab",
+      "source_path": "实验手册/Spark SQL读写数据.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "Spark SQL",
+        "DataFrame",
+        "RDD",
+        "Local",
+        "数据读写"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "text_chars": 4662,
+      "chunk_count": 4
+    },
+    {
+      "id": "asset-015-0bb02159",
+      "title": "Spark 开发环境配置",
+      "category": "lab",
+      "source_path": "实验手册/Spark 开发环境配置.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "RDD",
+        "Standalone",
+        "环境部署",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "text_chars": 5591,
+      "chunk_count": 5
+    },
+    {
+      "id": "asset-016-73013e5e",
+      "title": "Spark 流处理初级实战",
+      "category": "lab",
+      "source_path": "实验手册/Spark 流处理初级实战.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "RDD",
+        "Local",
+        "流处理",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "text_chars": 6254,
+      "chunk_count": 6
+    },
+    {
+      "id": "asset-017-e63b67b1",
+      "title": "RDD编程实战",
+      "category": "case",
+      "source_path": "实验手册/案例/RDD编程实战.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "编程实践",
+        "RDD",
+        "YARN",
+        "Local",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "text_chars": 2647,
+      "chunk_count": 4
+    },
+    {
+      "id": "asset-018-ef727e75",
+      "title": "Scala编程",
+      "category": "case",
+      "source_path": "实验手册/案例/Scala编程.pdf",
+      "suffix": ".pdf",
+      "topics": [
+        "Scala"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "text_chars": 2460,
+      "chunk_count": 3
+    },
+    {
+      "id": "asset-019-92957ff3",
+      "title": "Spark on YARN部署模式-",
+      "category": "case",
+      "source_path": "实验手册/案例/Spark on YARN部署模式-.docx",
+      "suffix": ".docx",
+      "topics": [
+        "YARN",
+        "Local",
+        "环境部署"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "text_chars": 5221,
+      "chunk_count": 6
+    },
+    {
+      "id": "asset-020-2e0da8c4",
+      "title": "Spark SQL初级实战",
+      "category": "case",
+      "source_path": "实验手册/案例/Spark SQL初级实战.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "Spark SQL",
+        "DataFrame",
+        "Local",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        17,
+        18,
+        19,
+        20
+      ],
+      "text_chars": 2159,
+      "chunk_count": 2
+    },
+    {
+      "id": "asset-021-194b5a9f",
+      "title": "Spark 流处理初级实战",
+      "category": "case",
+      "source_path": "实验手册/案例/Spark 流处理初级实战.docx",
+      "suffix": ".docx",
+      "topics": [
+        "Scala",
+        "RDD",
+        "Local",
+        "流处理",
+        "作业"
+      ],
+      "lecture_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "text_chars": 6254,
+      "chunk_count": 6
+    }
+  ]
+}

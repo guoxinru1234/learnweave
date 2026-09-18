@@ -1,0 +1,27 @@
+{
+  "total": 2,
+  "datasets": [
+    {
+      "id": "asset-002-06c820c6",
+      "title": "fourth-data1",
+      "category": "dataset",
+      "source_path": "实验手册/fourth-data1.txt",
+      "suffix": ".txt",
+      "topics": [],
+      "lecture_ids": [],
+      "text_chars": 22440,
+      "chunk_count": 22
+    },
+    {
+      "id": "asset-010-ca49fac4",
+      "title": "score-sencond-test",
+      "category": "dataset",
+      "source_path": "实验手册/score-sencond-test.txt",
+      "suffix": ".txt",
+      "topics": [],
+      "lecture_ids": [],
+      "text_chars": 337,
+      "chunk_count": 1
+    }
+  ]
+}

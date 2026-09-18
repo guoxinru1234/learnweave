@@ -1,0 +1,7 @@
+{
+  "case_id": "weak-foundation-01",
+  "learner_profile": {"foundation": "weak", "theoretical_basis": 42, "coding_ability": 35, "practical_ops": 30, "troubleshooting": 38, "data_thinking": 45, "self_learning": 52, "weak_points": ["DataFrame basics", "missing value cleaning"]},
+  "agent_trace": [{"agent": "diagnosis", "decision": "Use basic Pandas explanations and runnable CSV examples."}, {"agent": "retrieval", "hits": ["pda-01", "pda-02"]}, {"agent": "generation", "resources": ["handout", "code_case", "mindmap", "quiz"]}, {"agent": "review", "status": "approved", "evidence_coverage": 1.0}],
+  "generated_resources": {"difficulty": "basic", "handout_title": "Pandas DataFrame and missing values", "code_focus": "read_csv/isna/fillna", "quiz_count": 3, "next_step": "Complete a data cleaning lab"},
+  "citations": ["pda-01", "pda-02"]
+}

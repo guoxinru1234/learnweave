@@ -1,0 +1,97 @@
+/* LearnWeave Design System */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Fira+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --lm-brand: #08b8bd;
+  --lm-brand-strong: #078fc3;
+  --lm-brand-light: #e8fbfa;
+  --lm-surface: #ffffff;
+  --lm-surface-subtle: #f3fbfb;
+  --lm-surface-hover: #eaf8f8;
+  --lm-text: #181a20;
+  --lm-text-secondary: #626875;
+  --lm-text-tertiary: #9298a5;
+  --lm-success: #10b981;
+  --lm-warning: #f59e0b;
+  --lm-danger: #ef4444;
+  --lm-border: #b9d8d9;
+  --lm-shadow: 0 8px 24px rgba(6, 91, 103, 0.06);
+}
+
+* { font-family: 'Fira Sans', sans-serif; }
+code, pre, .font-mono { font-family: 'Fira Code', monospace; }
+
+body { background: #f7fcfc; color: var(--lm-text); }
+::selection { background: #c8f5f1; color: #063f49; }
+
+/* Compatibility layer for legacy learning surfaces. */
+.rounded-2xl,
+.rounded-3xl { border-radius: 8px !important; }
+
+.shadow-lg,
+.shadow-xl,
+.shadow-2xl { box-shadow: var(--lm-shadow) !important; }
+
+.bg-indigo-600,
+.bg-indigo-500,
+.bg-\[\#4f46e5\] { background-color: var(--lm-brand) !important; }
+
+.hover\:bg-indigo-700:hover,
+.hover\:bg-indigo-600:hover,
+.hover\:bg-\[\#4338ca\]:hover { background-color: #078f9b !important; }
+
+.bg-indigo-50,
+.bg-indigo-50\/30,
+.bg-indigo-50\/50,
+.bg-indigo-100,
+.bg-purple-50,
+.bg-purple-100,
+.bg-violet-50 { background-color: var(--lm-brand-light) !important; }
+
+.text-indigo-400,
+.text-indigo-500,
+.text-indigo-600,
+.text-indigo-700,
+.text-indigo-900,
+.text-indigo-950,
+.text-purple-400,
+.text-purple-600,
+.text-purple-700,
+.text-violet-600,
+.text-violet-700,
+.text-\[\#4f46e5\],
+.text-\[\#315efb\] { color: #078f9b !important; }
+
+.hover\:text-\[\#4f46e5\]:hover,
+.hover\:text-\[\#4338ca\]:hover,
+.hover\:text-\[\#315efb\]:hover,
+.hover\:text-purple-400:hover { color: #078f9b !important; }
+
+.border-indigo-200,
+.border-indigo-300,
+.border-indigo-400,
+.border-indigo-500,
+.border-indigo-600,
+.border-purple-200,
+.border-violet-200 { border-color: #8ed6d3 !important; }
+
+.hover\:border-indigo-400:hover,
+.focus\:border-indigo-400:focus,
+.focus\:border-indigo-500:focus,
+.focus\:border-indigo-600:focus,
+.focus\:border-\[\#4f46e5\]:focus { border-color: var(--lm-brand) !important; }
+
+.hover\:border-\[\#4f46e5\]\/30:hover { border-color: rgba(8, 184, 189, 0.3) !important; }
+.hover\:bg-\[\#eef3ff\]:hover { background-color: var(--lm-brand-light) !important; }
+
+.ring-indigo-200,
+.ring-indigo-300,
+.focus\:ring-indigo-50:focus,
+.focus\:ring-indigo-100:focus { --tw-ring-color: rgba(8, 184, 189, 0.16) !important; }
+
+.from-indigo-500,
+.from-violet-50,
+.from-blue-50 { --tw-gradient-from: #078fc3 var(--tw-gradient-from-position) !important; }
+.to-purple-500,
+.to-purple-50,
+.to-indigo-50 { --tw-gradient-to: #12c9b8 var(--tw-gradient-to-position) !important; }

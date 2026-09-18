@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "generated_by": "scripts/ingest_course_assets.py --build-chroma",
+  "path": "knowledge-base\\.chroma",
+  "collection": "learnmate_course_assets",
+  "embedding": "learnmate-hash-384",
+  "chunks": 538
+}

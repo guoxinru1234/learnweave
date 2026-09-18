@@ -1,0 +1,50 @@
+{"case_id": "beginner_01", "resource_level": "basic", "knowledge_points": ["Python 环境安装", "虚拟环境", "Jupyter Notebook", "单元格执行"], "source": "knowledge-base/01/lecture.md"}
+{"case_id": "beginner_02", "resource_level": "basic", "knowledge_points": ["变量与数据类型", "运算符", "条件与循环", "函数"], "source": "knowledge-base/02/lecture.md"}
+{"case_id": "beginner_03", "resource_level": "basic", "knowledge_points": ["ndarray", "数组创建", "索引与切片", "数组形状"], "source": "knowledge-base/03/lecture.md"}
+{"case_id": "beginner_04", "resource_level": "basic", "knowledge_points": ["广播机制", "向量化运算", "聚合函数", "数组类型"], "source": "knowledge-base/04/lecture.md"}
+{"case_id": "beginner_05", "resource_level": "basic", "knowledge_points": ["Series", "DataFrame", "索引", "表格数据结构"], "source": "knowledge-base/05/lecture.md"}
+{"case_id": "beginner_06", "resource_level": "basic", "knowledge_points": ["条件筛选", "loc 与 iloc", "groupby", "merge 与 concat"], "source": "knowledge-base/06/lecture.md"}
+{"case_id": "beginner_07", "resource_level": "basic", "knowledge_points": ["缺失值", "重复值", "异常值", "数据类型转换"], "source": "knowledge-base/07/lecture.md"}
+{"case_id": "beginner_08", "resource_level": "basic", "knowledge_points": ["折线图", "柱状图", "坐标轴与标题", "图表展示"], "source": "knowledge-base/08/lecture.md"}
+{"case_id": "beginner_09", "resource_level": "basic", "knowledge_points": ["Extract", "Transform", "Load", "读取整理保存"], "source": "knowledge-base/09/lecture.md"}
+{"case_id": "beginner_10", "resource_level": "basic", "knowledge_points": ["提出问题", "数据整理", "统计分析", "结论表达"], "source": "knowledge-base/10/lecture.md"}
+{"case_id": "theory_01", "resource_level": "basic", "knowledge_points": ["Python 环境安装", "虚拟环境", "Jupyter Notebook", "单元格执行"], "source": "knowledge-base/01/lecture.md"}
+{"case_id": "theory_02", "resource_level": "basic", "knowledge_points": ["变量与数据类型", "运算符", "条件与循环", "函数"], "source": "knowledge-base/02/lecture.md"}
+{"case_id": "theory_03", "resource_level": "basic", "knowledge_points": ["ndarray", "数组创建", "索引与切片", "数组形状"], "source": "knowledge-base/03/lecture.md"}
+{"case_id": "theory_04", "resource_level": "basic", "knowledge_points": ["广播机制", "向量化运算", "聚合函数", "数组类型"], "source": "knowledge-base/04/lecture.md"}
+{"case_id": "theory_05", "resource_level": "basic", "knowledge_points": ["Series", "DataFrame", "索引", "表格数据结构"], "source": "knowledge-base/05/lecture.md"}
+{"case_id": "theory_06", "resource_level": "basic", "knowledge_points": ["条件筛选", "loc 与 iloc", "groupby", "merge 与 concat"], "source": "knowledge-base/06/lecture.md"}
+{"case_id": "theory_07", "resource_level": "basic", "knowledge_points": ["缺失值", "重复值", "异常值", "数据类型转换"], "source": "knowledge-base/07/lecture.md"}
+{"case_id": "theory_08", "resource_level": "basic", "knowledge_points": ["折线图", "柱状图", "坐标轴与标题", "图表展示"], "source": "knowledge-base/08/lecture.md"}
+{"case_id": "theory_09", "resource_level": "basic", "knowledge_points": ["Extract", "Transform", "Load", "读取整理保存"], "source": "knowledge-base/09/lecture.md"}
+{"case_id": "theory_10", "resource_level": "basic", "knowledge_points": ["提出问题", "数据整理", "统计分析", "结论表达"], "source": "knowledge-base/10/lecture.md"}
+{"case_id": "practice_01", "resource_level": "intermediate", "knowledge_points": ["Python 环境安装", "虚拟环境", "Jupyter Notebook", "单元格执行"], "source": "knowledge-base/01/lecture.md"}
+{"case_id": "practice_02", "resource_level": "intermediate", "knowledge_points": ["变量与数据类型", "运算符", "条件与循环", "函数"], "source": "knowledge-base/02/lecture.md"}
+{"case_id": "practice_03", "resource_level": "intermediate", "knowledge_points": ["ndarray", "数组创建", "索引与切片", "数组形状"], "source": "knowledge-base/03/lecture.md"}
+{"case_id": "practice_04", "resource_level": "intermediate", "knowledge_points": ["广播机制", "向量化运算", "聚合函数", "数组类型"], "source": "knowledge-base/04/lecture.md"}
+{"case_id": "practice_05", "resource_level": "intermediate", "knowledge_points": ["Series", "DataFrame", "索引", "表格数据结构"], "source": "knowledge-base/05/lecture.md"}
+{"case_id": "practice_06", "resource_level": "intermediate", "knowledge_points": ["条件筛选", "loc 与 iloc", "groupby", "merge 与 concat"], "source": "knowledge-base/06/lecture.md"}
+{"case_id": "practice_07", "resource_level": "intermediate", "knowledge_points": ["缺失值", "重复值", "异常值", "数据类型转换"], "source": "knowledge-base/07/lecture.md"}
+{"case_id": "practice_08", "resource_level": "intermediate", "knowledge_points": ["折线图", "柱状图", "坐标轴与标题", "图表展示"], "source": "knowledge-base/08/lecture.md"}
+{"case_id": "practice_09", "resource_level": "intermediate", "knowledge_points": ["Extract", "Transform", "Load", "读取整理保存"], "source": "knowledge-base/09/lecture.md"}
+{"case_id": "practice_10", "resource_level": "intermediate", "knowledge_points": ["提出问题", "数据整理", "统计分析", "结论表达"], "source": "knowledge-base/10/lecture.md"}
+{"case_id": "balanced_01", "resource_level": "intermediate", "knowledge_points": ["Python 环境安装", "虚拟环境", "Jupyter Notebook", "单元格执行"], "source": "knowledge-base/01/lecture.md"}
+{"case_id": "balanced_02", "resource_level": "intermediate", "knowledge_points": ["变量与数据类型", "运算符", "条件与循环", "函数"], "source": "knowledge-base/02/lecture.md"}
+{"case_id": "balanced_03", "resource_level": "intermediate", "knowledge_points": ["ndarray", "数组创建", "索引与切片", "数组形状"], "source": "knowledge-base/03/lecture.md"}
+{"case_id": "balanced_04", "resource_level": "intermediate", "knowledge_points": ["广播机制", "向量化运算", "聚合函数", "数组类型"], "source": "knowledge-base/04/lecture.md"}
+{"case_id": "balanced_05", "resource_level": "intermediate", "knowledge_points": ["Series", "DataFrame", "索引", "表格数据结构"], "source": "knowledge-base/05/lecture.md"}
+{"case_id": "balanced_06", "resource_level": "intermediate", "knowledge_points": ["条件筛选", "loc 与 iloc", "groupby", "merge 与 concat"], "source": "knowledge-base/06/lecture.md"}
+{"case_id": "balanced_07", "resource_level": "intermediate", "knowledge_points": ["缺失值", "重复值", "异常值", "数据类型转换"], "source": "knowledge-base/07/lecture.md"}
+{"case_id": "balanced_08", "resource_level": "intermediate", "knowledge_points": ["折线图", "柱状图", "坐标轴与标题", "图表展示"], "source": "knowledge-base/08/lecture.md"}
+{"case_id": "balanced_09", "resource_level": "intermediate", "knowledge_points": ["Extract", "Transform", "Load", "读取整理保存"], "source": "knowledge-base/09/lecture.md"}
+{"case_id": "balanced_10", "resource_level": "intermediate", "knowledge_points": ["提出问题", "数据整理", "统计分析", "结论表达"], "source": "knowledge-base/10/lecture.md"}
+{"case_id": "advanced_01", "resource_level": "advanced", "knowledge_points": ["Python 环境安装", "虚拟环境", "Jupyter Notebook", "单元格执行"], "source": "knowledge-base/01/lecture.md"}
+{"case_id": "advanced_02", "resource_level": "advanced", "knowledge_points": ["变量与数据类型", "运算符", "条件与循环", "函数"], "source": "knowledge-base/02/lecture.md"}
+{"case_id": "advanced_03", "resource_level": "advanced", "knowledge_points": ["ndarray", "数组创建", "索引与切片", "数组形状"], "source": "knowledge-base/03/lecture.md"}
+{"case_id": "advanced_04", "resource_level": "advanced", "knowledge_points": ["广播机制", "向量化运算", "聚合函数", "数组类型"], "source": "knowledge-base/04/lecture.md"}
+{"case_id": "advanced_05", "resource_level": "advanced", "knowledge_points": ["Series", "DataFrame", "索引", "表格数据结构"], "source": "knowledge-base/05/lecture.md"}
+{"case_id": "advanced_06", "resource_level": "advanced", "knowledge_points": ["条件筛选", "loc 与 iloc", "groupby", "merge 与 concat"], "source": "knowledge-base/06/lecture.md"}
+{"case_id": "advanced_07", "resource_level": "advanced", "knowledge_points": ["缺失值", "重复值", "异常值", "数据类型转换"], "source": "knowledge-base/07/lecture.md"}
+{"case_id": "advanced_08", "resource_level": "advanced", "knowledge_points": ["折线图", "柱状图", "坐标轴与标题", "图表展示"], "source": "knowledge-base/08/lecture.md"}
+{"case_id": "advanced_09", "resource_level": "advanced", "knowledge_points": ["Extract", "Transform", "Load", "读取整理保存"], "source": "knowledge-base/09/lecture.md"}
+{"case_id": "advanced_10", "resource_level": "advanced", "knowledge_points": ["提出问题", "数据整理", "统计分析", "结论表达"], "source": "knowledge-base/10/lecture.md"}
